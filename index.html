@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ringa Ringa Support</title>
+  <meta name="description" content="Official support page for the Ringa Ringa iOS app." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+
+  <main class="container">
+    <header class="hero card">
+      <p class="eyebrow">Official App Support</p>
+      <h1>Ringa Ringa</h1>
+      <p class="subtitle">Create custom iPhone ringtones from recordings and imported audio.</p>
+      <div class="chips">
+        <span class="chip">iOS 18+</span>
+        <span class="chip">Ringtone Editor</span>
+        <span class="chip">.m4r Export</span>
+      </div>
+    </header>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Need Help?</h2>
+        <p>If you need help with recording, importing, editing, or exporting ringtones, contact support:</p>
+        <p><a href="mailto:sup.ringaringa@gmail.com">sup.ringaringa@gmail.com</a></p>
+        <p class="muted">Tip: include your iPhone model, iOS version, and a short description of the issue.</p>
+      </article>
+
+      <article class="card">
+        <h2>Common Issues</h2>
+        <ul>
+          <li><strong>Microphone not working:</strong> Enable microphone in iOS Settings.</li>
+          <li><strong>Import failed:</strong> Use mp3, m4a, wav, or m4r files.</li>
+          <li><strong>No sound on preview:</strong> Check mute switch and volume.</li>
+          <li><strong>Ringtone install help:</strong> Export the .m4r and transfer via Finder.</li>
+        </ul>
+      </article>
+
+      <article class="card wide">
+        <h2>Links</h2>
+        <div class="links">
+          <a class="btn" href="./privacy.html">Privacy Policy</a>
+          <a class="btn" href="mailto:sup.ringaringa@gmail.com">Email Support</a>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Ringa Ringa</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
